@@ -3,92 +3,171 @@ body {
   text-align: center;
 }
 
-.header {
-  background-color: #1f2937;
-  color: #f9faf8;
+.content {
 
-  .top {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  .header {
+    background-color: #1f2937;
+    color: #f9faf8;
 
-    .logo {
-      font-size: 24px;
-    }
-
-    .links {
+    .top {
       display: flex;
-      color: #e5e7eb;
-      font-size: 18px;
-    }
-  }
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 180px;
 
-  .data {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 32px 0px;
-
-    .awesome {
-      width: 300px;
-      text-align: left;
-      .title {
-        font-size: 48px;
-        font-weight: 900;
+      .logo {
+        font-size: 24px;
       }
-      p {
+
+      .links {
+        display: flex;
+        color: #e5e7eb;
         font-size: 18px;
       }
     }
 
-    img {
-      width: 300px;
-      height: 120px;
-      border: 1px solid white;
+    .data {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 32px 0px;
+      gap: 5px;
+
+      .box {
+        width: 490px;
+        height: 290px;
+      }
+
+      .awesome {
+        text-align: left;
+
+        .title {
+          font-size: 48px;
+          font-weight: 900;
+        }
+
+        p {
+          font-size: 18px;
+        }
+
+        button {
+          background-color: #3882f6;
+          border-radius: 5px;
+          padding: 10px 35px;
+          color: #f9faf8;
+          font-size: 18px;
+          border: 1px solid #3882f6;
+        }
+      }
+
+      .gray {
+        background-color: #555f74;
+      }
     }
   }
-}
 
-.footer {
-  background-color: #1f2937;
-  color: #f9faf8;
-}
+  .vista {
+    text-align: center;
 
-.god-advice {
-  background-color: #e5e7eb;
-}
+    .title {
+      font-size: 36px;
+      font-weight: 900;
+      margin: 32px 0px;
+    }
 
-.vista {
-  text-align: center;
+    .rtl-box {
+      display: flex;
+      gap: 52px;
+      justify-content: center;
 
-  .title {
-    font-size: 36px;
-    font-weight: 900;
-    margin: 32px 0px;
+      div {
+        flex: auto;
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 150px;
+          height: 150px;
+          border: 4px solid #3882f6;
+          border-radius: 17px;
+        }
+      }
+
+      .text {
+        text-align: center;
+      }
+    }
   }
 
-  .rtl-box {
+  .god-advice {
+    background-color: #e5e7eb;
+    padding: 32px 0px;
     display: flex;
-    gap: 52px;
+    align-items: center;
     justify-content: center;
 
-    div {
-      flex: auto;
-      max-width: 200px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    figure {
+      blockquote {
+        font-style: italic;
+        color: #1f2937;
+        font-size: 36px;
+        font-weight: 300;
+      }
 
-      img {
-        width: 170px;
-        height: 170px;
-        border: 4px solid #3882f6;
-        border-radius: 17px;
+      figcaption {
+        text-align: right;
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      width: 900px;
+    }
+  }
+
+  .call-to-action {
+    padding: 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .button-like {
+      width: 1000px;
+      background-color: #3882f6;
+      color: #e5e7eb;
+      border-radius: 19px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 0px;
+      gap: 220px;
+
+      .data {
+        text-align: left;
+
+        .call {
+          font-size: 24px;
+          font-weight: 600;
+        }
+      }
+
+      button {
+        background-color: #3882f6;
+        border-radius: 5px;
+        padding: 10px 35px;
+        color: #f9faf8;
+        font-size: 18px;
+        box-shadow: none;
+        border: 1px solid #f9faf8;
       }
     }
 
-    .text {
-      text-align: center;
-    }
+  }
+
+  .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 32px 0px;
   }
 }
