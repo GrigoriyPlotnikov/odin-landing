@@ -1,0 +1,94 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
+
+  .top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .logo {
+      font-size: 24px;
+    }
+
+    .links {
+      display: flex;
+      color: #e5e7eb;
+      font-size: 18px;
+    }
+  }
+
+  .data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0px;
+
+    .awesome {
+      width: 300px;
+      text-align: left;
+      .title {
+        font-size: 48px;
+        font-weight: 900;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+
+    img {
+      width: 300px;
+      height: 120px;
+      border: 1px solid white;
+    }
+  }
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.god-advice {
+  background-color: #e5e7eb;
+}
+
+.vista {
+  text-align: center;
+
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 32px 0px;
+  }
+
+  .rtl-box {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+
+    div {
+      flex: auto;
+      max-width: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 170px;
+        height: 170px;
+        border: 4px solid #3882f6;
+        border-radius: 17px;
+      }
+    }
+
+    .text {
+      text-align: center;
+    }
+  }
+}
